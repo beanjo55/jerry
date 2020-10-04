@@ -10,3 +10,8 @@ export interface ICommandContext{
     args: Array<string>;
     dev: boolean; 
 }
+
+export interface JerryPeck{
+   peckChance: number;
+   peckEnable: boolean;
+}
